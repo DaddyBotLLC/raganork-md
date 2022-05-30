@@ -1,7 +1,7 @@
 [[build.buildpacks]]
 
-uri = "heroku/nodejs"
+uri = 'heroku/nodejs'
 
 [[build.buildpacks]]
 
-uri = "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+uri = 'https://github.com/clhuang/heroku-buildpack-webp-binaries.git'

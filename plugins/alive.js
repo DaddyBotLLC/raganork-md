@@ -30,13 +30,13 @@ Module({
   var myid = message.client.user.id.split(":")[0]
   var buttons = [{
     urlButton: {
-        displayText: 'Github',
-        url: 'https://github.com/souravkl11/raganork'
+        displayText: 'Instagram',
+        url: 'https://instagram.com/akash.as_'
     }
 }, {
   urlButton: {
     displayText: 'Contact Owner',
-    url: 'https://wa.me/'+BOT_INFO.split(";")[2]+'?text=Hey+bro'
+    url: 'https://wa.me/919061055388?text=Hey+bro'
     }
 }, {
     quickReplyButton: {
@@ -50,25 +50,25 @@ Module({
     }  
 }, {
     quickReplyButton: {
-        displayText: 'Support group',
-        id: 'support'+myid
+        displayText: 'Bot Group',
+        url: 'https://chat.whatsapp.com/BjA4OGuW2aK7nebR9H0JiK'
     }
 }]
-var menu = `╭═══〘 ${BOT_INFO.split(";")[0]} 〙═══⊷❍
+var menu = `╭═══〘 {Whatsapp-Bot 〙═══⊷❍
 ┃✩╭──────────────
 ┃✩│
-┃✩│ Owner : ${BOT_INFO.split(";")[1]}
+┃✩│ Owner : {Akash }
 ┃✩│ User : ${message.senderName}
 ┃✩│ Mode : ${MODE}
 ┃✩│ Server : ${config.HEROKU.APP_NAME}
 ┃✩│ Ram: 1024 MB
-┃✩│ Disk Space: 620 GB
+┃✩│ Disk Space: 800 GB
 ┃✩│ Version: ${config.VERSION}
 ┃✩│
 ┃✩│
 ┃✩│  ▎▍▌▌▉▏▎▌▉▐▏▌▎
 ┃✩│  ▎▍▌▌▉▏▎▌▉▐▏▌▎
-┃✩│   ${BOT_INFO.split(";")[0]}
+┃✩│   {Whatsapp Bot.split(";")[0]}
 ┃✩│ 
 ┃✩╰───────────────
 ╰═════════════════⊷

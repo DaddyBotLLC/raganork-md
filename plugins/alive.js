@@ -57,7 +57,7 @@ Module({
 var menu = `╭═══〘 {Whatsapp-Bot 〙═══⊷❍
 ┃✩╭──────────────
 ┃✩│
-┃✩│ Owner : {Akash }
+┃✩│ Owner : {Akash}
 ┃✩│ User : ${message.senderName}
 ┃✩│ Mode : ${MODE}
 ┃✩│ Server : ${config.HEROKU.APP_NAME}
@@ -69,7 +69,7 @@ var menu = `╭═══〘 {Whatsapp-Bot 〙═══⊷❍
 ┃✩│  ▎▍▌▌▉▏▎▌▉▐▏▌▎
 ┃✩│  ▎▍▌▌▉▏▎▌▉▐▏▌▎
 ┃✩│   {Whatsapp Bot}
-┃✩│ 
+┃✩│ {By Botuse-Ltd}
 ┃✩╰───────────────
 ╰═════════════════⊷
 

@@ -68,7 +68,7 @@ var menu = `╭═══〘 {Whatsapp-Bot 〙═══⊷❍
 ┃✩│
 ┃✩│  ▎▍▌▌▉▏▎▌▉▐▏▌▎
 ┃✩│  ▎▍▌▌▉▏▎▌▉▐▏▌▎
-┃✩│   {Whatsapp Bot.split(";")[0]}
+┃✩│   {Whatsapp Bot}
 ┃✩│ 
 ┃✩╰───────────────
 ╰═════════════════⊷
@@ -108,7 +108,7 @@ var menu = `╭═══〘 {Whatsapp-Bot 〙═══⊷❍
 ┃✩│ gif
 ┃✩╰─────────────────
 ╰══════════════════⊷❍`
-return await message.sendImageTemplate(await skbuffer(BOT_INFO.split(";")[3]),FancyRandom(menu),"All rights reserved "+BOT_INFO.split(";")[0],buttons);
+return await message.sendImageTemplate(await skbuffer(Whatsapp Bot.split(";")[3]),FancyRandom(menu),"All rights reserved "+BOT_INFO.split(";")[0],buttons);
 }))
 Module({
   pattern: 'alive',
